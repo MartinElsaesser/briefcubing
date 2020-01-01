@@ -237,7 +237,6 @@ var urlsToCache = [
 	"/briefcubing/jquery/images/icons-svg/video-white.svg",
 	"/briefcubing/spectrum/spectrum.js",
 	"/briefcubing/spectrum/spectrum.css",
-	"https://www.googletagmanager.com/gtag/js?id=UA-75630988-2"
 ];
 
 self.addEventListener("install", function (event) {

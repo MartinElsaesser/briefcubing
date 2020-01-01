@@ -15,6 +15,7 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="icons/icon-96x96.png">
 	<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192x192.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://martinelsaesser.github.io/briefcubing/">
 	<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
 	<link rel="stylesheet" href="theme-classic.css" />
 	<link rel="stylesheet" href="spectrum/spectrum.css" />
@@ -443,7 +444,7 @@
 	<script>
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function () {
-				navigator.serviceWorker.register('/sw.js').then(function (registration) {
+				navigator.serviceWorker.register('/briefcubing/sw.js').then(function (registration) {
 					console.log('ServiceWorker registration successful with scope: ', registration.scope);
 				}, function (err) {
 					console.log('ServiceWorker registration failed: ', err);
